@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt=""/>
+                {/* <img src={avatar} alt=""/> */}
             </div>
             <ul className="nav-items">
                 <li className="nav-item">

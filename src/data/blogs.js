@@ -33,13 +33,6 @@ const blogs = [
         month: 'April',
         image: blog4
     },
-    {
-        id: 5,
-        title: 'How To Tse SEO Efficiently',
-        date: '01',
-        month: 'April',
-        image: blog4
-    }
 ]
 
 export default blogs;

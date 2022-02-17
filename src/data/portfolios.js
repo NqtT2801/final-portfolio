@@ -1,73 +1,35 @@
 import css1 from '../img/portImages/cv_css.png';
-import css2 from '../img/portImages/ms.png';
-import react1 from '../img/portImages/react_styled.png';
-import img2 from '../img/portImages/maya-4.jpg';
-import img3 from '../img/portImages/maya-3.jpg';
-
+import weatherapp from '../img/portImages/weatherapp.png'
+import game from "../img/portImages/game.png";
+import shopee from "../img/portImages/shopee.png";
 const portfolios = [
-    {
-        id: 1,
-        category: 'CSS',
-        image: css1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Resume',
-        text: 'Created with only HTML and CSS.'
-    },
-    {
-        id: 2,
-        category: 'Python',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-    {
-        id: 3,
-        category: 'Javascript',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-    {
-        id: 4,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 5,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 6,
-        category: 'React JS',
-        image: react1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
-    },
-    {
-        id: 7,
-        category: 'CSS',
-        image: css2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Microsoft Website Clone',
-        text: 'Created using HTML and CSS'
-    }
-]
+  {
+    id: 1,
+    category: "App",
+    image: weatherapp,
+    link1: "https://nguyenquanweather.netlify.app",
+    link2: "https://nguyenquanweather.netlify.app",
+    title: "Weather App",
+    text: "Created with HTML, CSS and Javascript.",
+  },
+  {
+    id: 2,
+    category: "Game",
+    image: game,
+    link1: "https://gameandfun.netlify.app",
+    link2: "https://gameandfun.netlify.app",
+    title: "Adventure Game",
+    text: "Created on Canvas HTML and Javascript.",
+  },
+  {
+    id: 3,
+    category: "Automation",
+    image: shopee,
+    link1: "https://www.youtube.com/watch?v=XWMP6Z9Oh-I",
+    link2: "https://www.youtube.com/watch?v=XWMP6Z9Oh-I",
+    title: "Auto shopee",
+    text: "Login and Like and Subscribe on Shopee",
+  },
+];
 
 export default portfolios;

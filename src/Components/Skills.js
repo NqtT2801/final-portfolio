@@ -13,38 +13,33 @@ function Skills() {
                     <div className="skills">
                         <ProgressBar 
                             title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'65%'}
+                            text={'65%'}
                         />
                         <ProgressBar 
                             title={'CSS3'}
-                            width={'90%'}
-                            text={'90%'}
-                        />
-                        <ProgressBar 
-                            title={'JAVASCRIPT'}
-                            width={'85%'}
-                            text={'85%'}
-                        />
-                        <ProgressBar 
-                            title={'JAVA'}
                             width={'60%'}
                             text={'60%'}
                         />
                         <ProgressBar 
+                            title={'JAVASCRIPT'}
+                            width={'60%'}
+                            text={'60%'}
+                        />
+                        <ProgressBar 
+                            title={'JAVA'}
+                            width={'10%'}
+                            text={'10%'}
+                        />
+                        <ProgressBar 
                             title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
+                            width={'75%'}
+                            text={'75%'}
                         />
                         <ProgressBar 
                             title={'React JS'}
-                            width={'75%'}
-                            text={'75%'}
-                        />
-                        <ProgressBar 
-                            title={'UNITY'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'65%'}
+                            text={'65%'}
                         />
                     </div>
                 </InnerLayout>
